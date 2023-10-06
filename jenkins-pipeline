@@ -2,7 +2,7 @@ pipeline {
 agent {label 'master'}
 
  tools {
-    jdk 'mava'
+    jdk 'java'
     maven 'maven'
   }
 stages{
